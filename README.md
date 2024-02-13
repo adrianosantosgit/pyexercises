@@ -21,3 +21,5 @@ Parentheses ()
 Exponentiation **
 Priority Operands *   /   //   %
 Last Operations +   -
+
+Tip: To calc square root or cubic is possible to use number ** (1/2 or 1/3) and so on.
