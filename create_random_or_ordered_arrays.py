@@ -10,7 +10,7 @@ deck = list(range(low, high))
 np.random.shuffle(deck)
 
 #Create a ordered list of unique integers
-#deck = np.arange(low, high) #create 
+#deck = np.arange(low, high)
 
 # Generate non-repeating random integers
 result = np.array(deck[:np.prod(size)]).reshape(size)
