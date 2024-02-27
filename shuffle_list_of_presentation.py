@@ -11,4 +11,4 @@ lista = [n1, n2, n3, n4]
 
 shuffle(lista)
 
-print('O aluno escolhido foi: {}\n'.format(lista))
+print('A sequência escolhida foi: {}\n'.format(lista))
