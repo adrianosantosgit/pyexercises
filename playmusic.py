@@ -8,7 +8,7 @@ pygame.mixer.music.load('music.mp3')
 pygame.mixer.music.play()
 
 pygame.event.wait()
-# Keep the program running until the user closes the window or presses a key
+# Keep the program running until the user closes the window
 while pygame.mixer.music.get_busy():
     pygame.time.Clock().tick(10)  # Adjust the tick rate as needed
 
