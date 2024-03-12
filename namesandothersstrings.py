@@ -1,0 +1,6 @@
+nome = str(input('\nInsira seu nome completo: \n\n'))
+print('\nSeu nome em MAIUSCULAS é: ', str.upper(nome), '\n')
+print('Seu nome em minusculas é: ', str.lower(nome), '\n')
+print('Nome com iniciais em maíusculo', str.capitalize(nome), '\n')
+#Para mostrar o número de caracteres menos os espacos encontrados por count(' ')
+print('O total de caracteres de seu nome é: ', str(len(nome)-nome.count(' ')), '\n')
