@@ -11,5 +11,9 @@ def is_valid(mail):
         print(domain)
         if len(domain) == 2:
             print("You inserted a valid format email, thanks!")
+        else:
+            print('This is not a valid email format, please insert your e-mail')
+    else:
+        print('This is not a valid email format, please insert your e-mail')
 
 is_valid(email)
