@@ -1,14 +1,14 @@
-email = input("Insert a valid email: ")
+email = input('Insira seu e-mail: ')
 
 def is_valid(mail):
     mail = email.split("@")
-    print("Email user: ", mail[0])
+    print('Usuário', mail)
     mail_lenght = len(mail)
     if mail_lenght == 2:
         mail_print = mail[1]
-        print("Domain: ", mail_print)
+        print('Domínio', mail_print)
         domain = mail[1].split(".")
-        print("Domain type: ." + domain[1])
+        print(domain)
         if len(domain) == 2:
             print("You inserted a valid format email, thanks!")
         else:
